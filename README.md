@@ -3,9 +3,8 @@ MyPlug-ins
 
 Xcode的Plug-ins
 
-一键安装: ``
+一键安装: 
 
+`curl -L  https://raw.githubusercontent.com/heyuan110/MyPlug-ins/master/INSTALL | sh `
 
-将xcplugin全部拷贝到~/Library/Application Support/Developer/Shared/Xcode/Plug-ins目录，重启xcode
-
-`open ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins`
+完成重启XCODE,所有的插件就都安装好了，试试吧
