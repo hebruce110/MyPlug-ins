@@ -17,4 +17,5 @@ hash git >/dev/null && /usr/bin/env git clone https://github.com/heyuan110/MyPlu
 echo "正在安装..."
 cp -rf ~/.MyPlug-ins/* ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/
 ls -l ~/.MyPlug-ins | grep '^d' | awk '{ print $9 }'
+rm -rf ~/.MyPlug-ins
 echo "安装完成,请重启XCODE！"
